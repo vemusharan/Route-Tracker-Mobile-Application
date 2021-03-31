@@ -3,6 +3,7 @@ import { StyleSheet, Text, FlatList, TouchableOpacity } from "react-native";
 import { ListItem } from "react-native-elements";
 import { NavigationEvents } from "react-navigation";
 import { Context as TrackContext } from "../context/TrackContext";
+import { FontAwesome } from "@expo/vector-icons";
 // function component
 
 const TrackListScreen = ({ navigation }) => {
